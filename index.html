@@ -174,7 +174,7 @@
 
     <div class="kpis">
       <div class="kpi"><div class="num">5</div><div class="lab">Campaigns <span class="mono">· 3 domains</span></div></div>
-      <div class="kpi"><div class="num">117</div><div class="lab">Outreach sent <span class="mono">· conn + msg</span></div></div>
+      <div class="kpi"><div class="num">120</div><div class="lab">Outreach sent <span class="mono">· conn + msg</span></div></div>
       <div class="kpi g"><div class="num">10</div><div class="lab">Replies <span class="mono">· all Israel Ellis</span></div></div>
       <div class="kpi g"><div class="num">16%</div><div class="lab">Best reply rate <span class="mono">· Wake Up #1</span></div></div>
       <div class="kpi r"><div class="num">0</div><div class="lab">Replies — APTX + LeadStrong</div></div>
@@ -234,7 +234,7 @@
             <td><div class="cname">New Campaign · Chicago</div><div class="csrc">LeadStrong · Eran Moshe · Trade Show</div></td>
             <td><span class="dchip"><span class="sw" style="background:var(--ls)"></span>LeadStrong</span></td>
             <td><span class="stat st-paused">Paused</span></td>
-            <td class="r">~15</td><td class="r">0</td>
+            <td class="r">3</td><td class="r">0</td>
             <td class="r">0%<span class="rrbar" style="width:3px;background:var(--clay)"></span></td>
           </tr>
           <tr>
@@ -252,7 +252,7 @@
     <div class="srow" style="grid-template-columns:repeat(3,1fr)">
       <div style="border-top:3px solid var(--isr)"><div class="v" style="color:var(--isr)">Working</div><div class="k">Israel Ellis — warm messages to existing connections. 10 replies, up to 16%.</div></div>
       <div style="border-top:3px solid var(--aptx)"><div class="v" style="color:var(--aptx)">Unproven</div><div class="k">APTX — 48 cold requests out, 0 accepted yet. Early (started Jun 3) + throttled.</div></div>
-      <div style="border-top:3px solid var(--ls)"><div class="v" style="color:var(--ls)">Stalled</div><div class="k">LeadStrong — 1 paused, 1 draft. Not yet producing; needs activation.</div></div>
+      <div style="border-top:3px solid var(--ls)"><div class="v" style="color:var(--ls)">Stalled</div><div class="k">LeadStrong — paused after 3 cold requests (0 accepted), weak list match; 435 list still in draft.</div></div>
     </div>
   </div>
 
@@ -382,31 +382,46 @@
       <div class="dot" style="background:var(--ls)">LS</div>
       <div><h2>LeadStrong</h2><div class="dm">rep: Eran Moshe</div></div>
       <div class="dstat">
-        <div><div class="v" style="color:var(--ls)">2</div><div class="k">Campaigns</div></div>
-        <div><div class="v" style="color:var(--clay)">0</div><div class="k">Replied</div></div>
-        <div><div class="v">495</div><div class="k">Prospects in scope</div></div>
+        <div><div class="v" style="color:var(--ls)">3</div><div class="k">Sent</div></div>
+        <div><div class="v" style="color:var(--clay)">0</div><div class="k">Accepted</div></div>
+        <div><div class="v">2</div><div class="k">Campaigns</div></div>
       </div>
     </div>
 
-    <div class="note"><span class="ni">i</span><span><b>Limited data:</b> the detailed LeadStrong recording didn't upload. Figures below are from the campaign list view — drop in the detail recording and I'll fully populate this page.</span></div>
-
     <div class="camp">
       <div class="camp-h">
-        <div><div class="cn">New Campaign · Chicago</div><div class="cmeta">Paused · Source: Chicago Trade Show · Created Jun 1</div></div>
+        <div><div class="cn">New Campaign · Chicago</div><div class="cmeta">Paused · cold conn. requests · Source: Chicago Trade Show · Created Jun 1</div></div>
         <div class="camp-mini">
-          <div><div class="v">15/60</div><div class="k">Progress</div></div>
-          <div><div class="v" style="color:var(--clay)">0%</div><div class="k">Reply</div></div>
+          <div><div class="v">3</div><div class="k">Sent</div></div>
+          <div><div class="v" style="color:var(--clay)">0%</div><div class="k">Accept</div></div>
         </div>
         <div class="chev">▾</div>
       </div>
       <div class="camp-b">
-        <div class="ps mono" style="color:var(--faint);font-size:11px;margin:18px 0 8px">PROSPECT PROGRESS · 60 total</div>
-        <div class="hbars">
-          <div class="hb"><div class="hbt"><span>Completed</span><span class="v">25%</span></div><div class="hbk"><div class="hbf" style="width:25%;background:var(--ls)"></div></div></div>
-          <div class="hb"><div class="hbt"><span>In progress</span><span class="v">57%</span></div><div class="hbk"><div class="hbf" style="width:57%;background:#7ab3bf"></div></div></div>
-          <div class="hb"><div class="hbt"><span>Not started</span><span class="v">18%</span></div><div class="hbk"><div class="hbf" style="width:18%;background:#cfc5b1"></div></div></div>
+        <div class="srow">
+          <div><div class="v" style="color:var(--ls)">15</div><div class="k">Qualified</div></div>
+          <div><div class="v">3</div><div class="k">Requests sent · 20%</div></div>
+          <div><div class="v" style="color:var(--clay)">0</div><div class="k">Accepted / replied</div></div>
+          <div><div class="v" style="color:var(--amber)">34</div><div class="k">Unqualified · filters</div></div>
         </div>
-        <div class="note"><span class="ni">⏸</span><span>Paused — 0 engaged, 0 replied. Needs a decision: resume or retire.</span></div>
+        <div class="g2" style="margin-top:22px">
+          <div>
+            <div class="ps mono" style="color:var(--faint);font-size:11px;margin-bottom:8px">FUNNEL</div>
+            <div class="funnel">
+              <div class="fs"><div class="fl"><div class="t">Qualified</div><div class="s">100%</div></div><div class="ft"><div class="fb" style="width:100%;background:var(--ls)">15</div></div></div>
+              <div class="fs"><div class="fl"><div class="t">Sent</div><div class="s">20%</div></div><div class="ft"><div class="fb" style="width:20%;background:#3f93a3;animation-delay:.1s">3</div></div></div>
+              <div class="fs"><div class="fl"><div class="t">Accepted</div><div class="s">0%</div></div><div class="ft"><div class="fb zero" style="width:100%;animation-delay:.2s">0 — pending</div></div></div>
+            </div>
+          </div>
+          <div>
+            <div class="ps mono" style="color:var(--faint);font-size:11px;margin-bottom:8px">SEQUENCE · quota 5/day</div>
+            <div class="hbars">
+              <div class="hb"><div class="hbt"><span>Step 1 · Connection check</span><span class="v">7</span></div><div class="hbk"><div class="hbf" style="width:100%;background:var(--ls)"></div></div></div>
+              <div class="hb"><div class="hbt"><span>Step 2 · Send connection</span><span class="v">3</span></div><div class="hbk"><div class="hbf" style="width:43%;background:#7ab3bf"></div></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="note"><span class="ni">⏸</span><span>Paused after just 3 cold requests (0 accepted). Weak list match — 34 disqualified for not fitting filters vs. 15 qualified. Decision needed: fix targeting &amp; resume, or retire.</span></div>
       </div>
     </div>
 
@@ -461,7 +476,7 @@
       charts[id]=new Chart(document.getElementById(id),{type:'bar',
         data:{labels:['APTX','Israel Ellis','LeadStrong'],
           datasets:[
-            {label:'Sent',data:[48,69,15],backgroundColor:['#4B46B5','#2E6B4F','#1F7A8C'],borderRadius:3,maxBarThickness:46},
+            {label:'Sent',data:[48,69,3],backgroundColor:['#4B46B5','#2E6B4F','#1F7A8C'],borderRadius:3,maxBarThickness:46},
             {label:'Replied',data:[0,10,0],backgroundColor:['#cfc8ee','#86c4a3','#a9d4dd'],borderRadius:3,maxBarThickness:46}
           ]},
         options:{responsive:true,maintainAspectRatio:false,
